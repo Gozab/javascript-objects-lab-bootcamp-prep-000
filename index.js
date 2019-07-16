@@ -10,3 +10,5 @@ function destructivelyUpdateObjectWithKeyAndValue(obj, key, value){
   obj[key]= value;
   return obj;
 }
+
+destructivelyUpdateObjectWithKeyAndValue(recipes, flour, "1 cup");
