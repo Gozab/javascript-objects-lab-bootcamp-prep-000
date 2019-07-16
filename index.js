@@ -23,8 +23,8 @@ function deleteFromObjectByKey(obj, key) {
 deleteFromObjectByKey(recipes, eggs);
 
 function destructivelyDeleteFromObjectByKey(obj, key) {
-  var newObj = delete obj.key;
-  return newObj;
+  obj = delete obj.key;
+  return obj;
 }
 
 destructivelyDeleteFromObjectByKey(recipes, eggs);
